@@ -7,6 +7,10 @@ function Clazz(msg){
 
     // this를 사용하지 않은 변수
     message2 = "find me!";
+    this.message2 = "find me!";
+   
+    console.log(this.message2);
+    
     // 멤버함수 선언
     this.print = function(){
         console.log(message2);
